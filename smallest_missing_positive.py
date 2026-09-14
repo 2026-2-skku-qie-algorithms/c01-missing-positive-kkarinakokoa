@@ -3,4 +3,9 @@ def smallest_missing_positive(values):
 
     See the spec in docs/specs/ for the exact behaviour.
     """
-    raise NotImplementedError
+    """raise NotImplementedError"""
+
+    print("hi bye")
+
+
+smallest_missing_positive([1, 2, 3])
