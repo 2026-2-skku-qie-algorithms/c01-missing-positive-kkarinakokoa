@@ -9,3 +9,4 @@ def smallest_missing_positive(values):
 
 
 smallest_missing_positive([1, 2, 3])
+print("good")
