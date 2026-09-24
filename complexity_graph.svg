@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="640" viewBox="0 0 1160 640">
+<rect width="1160" height="640" fill="white"/>
+<style>text{font-family:Arial,sans-serif;font-size:13px;fill:#334155}.title{font-size:19px;font-weight:bold}.grid{stroke:#e2e8f0;stroke-width:1}</style>
+<text x="35" y="38" class="title">Smallest missing positive: measured scaling</text>
+<text x="35" y="65">Input: [1, 2, ..., n]. Input creation excluded. Standard-library measurements.</text>
+<text x="75" y="105" class="title">Execution time</text>
+<path d="M 75 430.0 h 440" class="grid"/>
+<text x="65" y="434.0" text-anchor="end">0.0</text>
+<text x="75.0" y="455" text-anchor="middle">0k</text>
+<path d="M 75 371.0 h 440" class="grid"/>
+<text x="65" y="375.0" text-anchor="end">4.1</text>
+<text x="163.0" y="455" text-anchor="middle">20k</text>
+<path d="M 75 312.0 h 440" class="grid"/>
+<text x="65" y="316.0" text-anchor="end">8.2</text>
+<text x="251.0" y="455" text-anchor="middle">40k</text>
+<path d="M 75 253.0 h 440" class="grid"/>
+<text x="65" y="257.0" text-anchor="end">12.4</text>
+<text x="339.0" y="455" text-anchor="middle">60k</text>
+<path d="M 75 194.0 h 440" class="grid"/>
+<text x="65" y="198.0" text-anchor="end">16.5</text>
+<text x="427.0" y="455" text-anchor="middle">80k</text>
+<path d="M 75 135.0 h 440" class="grid"/>
+<text x="65" y="139.0" text-anchor="end">20.6</text>
+<text x="515.0" y="455" text-anchor="middle">100k</text>
+<text x="75" y="123">ms</text>
+<text x="295.0" y="482" text-anchor="middle">Input length n</text>
+<line x1="75.0" y1="430.0" x2="515.0" y2="188.7455358608767" stroke="#d97706" stroke-width="2" stroke-dasharray="7 5"/>
+<polyline points="79.40,427.98 97.00,415.23 119.00,405.25 163.00,377.30 251.00,333.74 339.00,292.30 427.00,231.69 515.00,188.75" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="79.4" y1="427.9900095262143" x2="79.4" y2="427.83122780575474" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="79.4" cy="427.9773986241512" r="4" fill="#2563eb"><title>n=1000, value=0.141 ms</title></circle>
+<line x1="97.0" y1="415.8893678632056" x2="97.0" y2="414.7629936949267" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="97.0" cy="415.2281606776379" r="4" fill="#2563eb"><title>n=5000, value=1.031 ms</title></circle>
+<line x1="119.0" y1="406.02198529449623" x2="119.0" y2="404.3645241863996" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="119.0" cy="405.250719994601" r="4" fill="#2563eb"><title>n=10000, value=1.727 ms</title></circle>
+<line x1="163.0" y1="377.7666145967121" x2="163.0" y2="374.62910317534835" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="163.0" cy="377.3043140617633" r="4" fill="#2563eb"><title>n=20000, value=3.677 ms</title></circle>
+<line x1="251.0" y1="336.1778959016499" x2="251.0" y2="328.46753445935417" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="251.0" cy="333.74057115134235" r="4" fill="#2563eb"><title>n=40000, value=6.717 ms</title></circle>
+<line x1="339.0" y1="292.8623568044581" x2="339.0" y2="289.1926119976345" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="339.0" cy="292.3026087235879" r="4" fill="#2563eb"><title>n=60000, value=9.609 ms</title></circle>
+<line x1="427.0" y1="234.56116727362394" x2="427.0" y2="224.68547297400926" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="427.0" cy="231.69048940717343" r="4" fill="#2563eb"><title>n=80000, value=13.838 ms</title></circle>
+<line x1="515.0" y1="189.89741844469233" x2="515.0" y2="184.16666666666666" stroke="#93c5fd" stroke-width="3"/>
+<circle cx="515.0" cy="188.7455358608767" r="4" fill="#2563eb"><title>n=100000, value=16.835 ms</title></circle>
+<text x="650" y="105" class="title">Peak extra Python memory</text>
+<path d="M 650 430.0 h 440" class="grid"/>
+<text x="640" y="434.0" text-anchor="end">0.0</text>
+<text x="650.0" y="455" text-anchor="middle">0k</text>
+<path d="M 650 371.0 h 440" class="grid"/>
+<text x="640" y="375.0" text-anchor="end">1474.6</text>
+<text x="738.0" y="455" text-anchor="middle">20k</text>
+<path d="M 650 312.0 h 440" class="grid"/>
+<text x="640" y="316.0" text-anchor="end">2949.2</text>
+<text x="826.0" y="455" text-anchor="middle">40k</text>
+<path d="M 650 253.0 h 440" class="grid"/>
+<text x="640" y="257.0" text-anchor="end">4423.9</text>
+<text x="914.0" y="455" text-anchor="middle">60k</text>
+<path d="M 650 194.0 h 440" class="grid"/>
+<text x="640" y="198.0" text-anchor="end">5898.5</text>
+<text x="1002.0" y="455" text-anchor="middle">80k</text>
+<path d="M 650 135.0 h 440" class="grid"/>
+<text x="640" y="139.0" text-anchor="end">7373.1</text>
+<text x="1090.0" y="455" text-anchor="middle">100k</text>
+<text x="650" y="123">KiB</text>
+<text x="870.0" y="482" text-anchor="middle">Input length n</text>
+<line x1="650.0" y1="430.0" x2="1090.0" y2="184.16666666666666" stroke="#d97706" stroke-width="2" stroke-dasharray="7 5"/>
+<polyline points="654.40,428.39 672.00,404.38 694.00,404.38 738.00,327.56 826.00,327.56 914.00,327.56 1002.00,184.17 1090.00,184.17" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="654.4" cy="428.3892745809837" r="4" fill="#2563eb"><title>n=1000, value=40.258 KiB</title></circle>
+<circle cx="672.0" cy="404.38312046096564" r="4" fill="#2563eb"><title>n=5000, value=640.258 KiB</title></circle>
+<circle cx="694.0" cy="404.38312046096564" r="4" fill="#2563eb"><title>n=10000, value=640.258 KiB</title></circle>
+<circle cx="738.0" cy="327.5634272769079" r="4" fill="#2563eb"><title>n=20000, value=2560.258 KiB</title></circle>
+<circle cx="826.0" cy="327.5634272769079" r="4" fill="#2563eb"><title>n=40000, value=2560.258 KiB</title></circle>
+<circle cx="914.0" cy="327.5634272769079" r="4" fill="#2563eb"><title>n=60000, value=2560.258 KiB</title></circle>
+<circle cx="1002.0" cy="184.16666666666666" r="4" fill="#2563eb"><title>n=80000, value=6144.258 KiB</title></circle>
+<circle cx="1090.0" cy="184.16666666666666" r="4" fill="#2563eb"><title>n=100000, value=6144.258 KiB</title></circle>
+<text x="75" y="510" fill="#2563eb">Blue: measurements (time whiskers: min to max of 7 batch averages).</text>
+<text x="75" y="535">Dashed orange: c * n, scaled to the final measurement; a reference, not a fitted proof.</text>
+<text x="75" y="560">Time: median of 7 samples, 5 calls each; tracemalloc disabled during timing.</text>
+<text x="75" y="585">Memory: tracemalloc peak during one call; set capacity growth can produce steps.</text>
+<text x="75" y="610">Expected O(n) time assumes ordinary integer costs and expected constant-time set operations.</text>
+</svg>
